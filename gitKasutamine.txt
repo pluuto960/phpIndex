@@ -6,7 +6,7 @@ git config --global --list
 //ssh võtme loomine
 ssh-keygen -o -t rsa -C "radzoffical@gmail.com"
 //võti salvestataks opilane/.ssh kausta
-//id_rsa.pub tuleb kopeerida oma github reposse 
+//id_rsa.pub tuleb kopeerida oma github reposse
 
 
 
