@@ -13,7 +13,7 @@ echo "Liitmine: ".$liitmine."<br>";
 echo "Lahutamine: ".$lahut."<br>";
 echo "Korrutis: ".$korrutis."<br>";
 echo "Jagamine: ".$jagamine."<br>";
-echo "Omistamise operaatorid: ";
+echo "<h2>Omistamise operaatorid: </h2>";
 echo "<br>";
 // $arv1++ - suurendamine ühe võrra
 $arv1++;
@@ -23,3 +23,5 @@ echo "<br>";
 $arv1--;
 echo $arv1."- vähendamine ühe võrra";
 echo "<br>";
+
+echo "<strong>Ruutjuur</strong>";
