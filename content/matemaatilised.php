@@ -70,8 +70,14 @@ $salaarv2=6;
 //kirjuta matemaatilise tehtega või funktsioonidega 5 vihjet
 echo "<ol><li>Kui esimene arv korrutada 5-ga, siis tuleb ";
 echo ($salaarv1*5)."</li>";
+echo "<li>Kui Esimene arv korrutada 15-ga ja jagada sqrt 4, siis tuleb ";
+echo ($salaarv2*15/sqrt(4))."</li>";
 echo "<li>Kui teine arv korrutada 87-ga ja jagada sqrt 5, siis tuleb ";
 echo ($salaarv2*87/sqrt(5))."</li>";
+echo "<li>Kui teine arv jagada 55-ga , siis tuleb ";
+echo ($salaarv2/55)."</li>";
+echo "<li>Kui votta sqrt teise arvu väärtus, siis tuleb  ";
+echo (sqrt($salaarv2))."</li>";
 echo "<br>"
 ?>
 <form action="<?=clearVarsExcept($_SERVER['REQUEST_URI'], "leht")?>" method="post">
