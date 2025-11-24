@@ -16,6 +16,9 @@
             <a href="https://juhanheinlaid24.thkit.ee" target="_blank">Vana index.html</a>
         </li>
         <li>
+            <a href="?leht=matemaatilised.php">Matemaatilised funktsioonid</a>
+        </li>
+        <li>
             <a href="?leht=gitKasud.php">Git Käsud</a>
         </li>
     </ul>
